@@ -13,7 +13,7 @@ const App = () => {
   const joinRoom = async (user, room) => {
     try{
       const connection = new HubConnectionBuilder() //create connection
-      .withUrl("http://www.myRealTimeChat.somee.com/chat")
+      .withUrl("https://myrealtimechatapi.azurewebsites.net")
       .configureLogging(LogLevel.Information)
       .build();
 
