@@ -30,7 +30,7 @@ const Chat = ({ messages, sendMessage, closeConnection, users }) => <div>
         </div>
     </div>
 
-    <div className="container d-none d-sm-block d-md-block d-lg-none mt-4">
+    <div className="container d-none d-xs-block d-sm-block d-md-block d-lg-none mt-4">
         <HorizontalConnectedUsers users={users}/>
     </div>
 
